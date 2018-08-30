@@ -1,0 +1,3 @@
+C:/Users/torrespe/CLionProjects/madLibs/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/torrespe/CLionProjects/madLibs/cmake-build-debug/CMakeFiles/mathLive.dir
+C:/Users/torrespe/CLionProjects/madLibs/cmake-build-debug/CMakeFiles/edit_cache.dir
