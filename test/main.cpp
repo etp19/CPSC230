@@ -20,7 +20,6 @@ int main() {
 
 
     // Variables profitPerBottle, totalProfitYear, ProfitPerDay, numBottles
-    ?? fnasfasfa
 
     return 0;
 }
