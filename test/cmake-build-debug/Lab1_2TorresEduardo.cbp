@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6"/>
 	<Project>
-		<Option title="test"/>
+		<Option title="Lab1_2TorresEduardo"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="msvc8"/>
 		<Option virtualFolders="CMake Files\;"/>
@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/eduardo/CLionProjects/CPSC230/test/main.cpp">
+		<Unit filename="C:/Users/eduardo/CLionProjects/CPSC230/test/Lab1_2TorresEduardo.cpp">
 			<Option target="test"/>
 		</Unit>
 		<Unit filename="C:/Users/eduardo/CLionProjects/CPSC230/test/CMakeLists.txt">

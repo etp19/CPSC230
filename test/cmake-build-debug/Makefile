@@ -49,10 +49,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\torrespe\CLionProjects\test
+CMAKE_SOURCE_DIR = C:\Users\eduardo\CLionProjects\CPSC230\test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\torrespe\CLionProjects\test\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\eduardo\CLionProjects\CPSC230\test\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -81,9 +81,9 @@ edit_cache\fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\torrespe\CLionProjects\test\cmake-build-debug\CMakeFiles C:\Users\torrespe\CLionProjects\test\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eduardo\CLionProjects\CPSC230\test\cmake-build-debug\CMakeFiles C:\Users\eduardo\CLionProjects\CPSC230\test\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\torrespe\CLionProjects\test\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eduardo\CLionProjects\CPSC230\test\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -124,32 +124,32 @@ test\fast:
 	$(MAKE) -f CMakeFiles\test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test.dir\build
 .PHONY : test\fast
 
-main.obj: main.cpp.obj
+Lab1_2TorresEduardo.obj: Lab1_2TorresEduardo.cpp.obj
 
-.PHONY : main.obj
+.PHONY : Lab1_2TorresEduardo.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test.dir\main.cpp.obj
-.PHONY : main.cpp.obj
+Lab1_2TorresEduardo.cpp.obj:
+	$(MAKE) -f CMakeFiles\test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test.dir\Lab1_2TorresEduardo.cpp.obj
+.PHONY : Lab1_2TorresEduardo.cpp.obj
 
-main.i: main.cpp.i
+Lab1_2TorresEduardo.i: Lab1_2TorresEduardo.cpp.i
 
-.PHONY : main.i
+.PHONY : Lab1_2TorresEduardo.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test.dir\main.cpp.i
-.PHONY : main.cpp.i
+Lab1_2TorresEduardo.cpp.i:
+	$(MAKE) -f CMakeFiles\test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test.dir\Lab1_2TorresEduardo.cpp.i
+.PHONY : Lab1_2TorresEduardo.cpp.i
 
-main.s: main.cpp.s
+Lab1_2TorresEduardo.s: Lab1_2TorresEduardo.cpp.s
 
-.PHONY : main.s
+.PHONY : Lab1_2TorresEduardo.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test.dir\main.cpp.s
-.PHONY : main.cpp.s
+Lab1_2TorresEduardo.cpp.s:
+	$(MAKE) -f CMakeFiles\test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test.dir\Lab1_2TorresEduardo.cpp.s
+.PHONY : Lab1_2TorresEduardo.cpp.s
 
 # Help Target
 help:
@@ -160,9 +160,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... test
 	@echo ... edit_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... Lab1_2TorresEduardo.obj
+	@echo ... Lab1_2TorresEduardo.i
+	@echo ... Lab1_2TorresEduardo.s
 .PHONY : help
 
 
