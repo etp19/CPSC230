@@ -1,0 +1,3 @@
+C:/Users/torrespe/CLionProjects/lab2_1TorresEduardo/cmake-build-debug/CMakeFiles/lab2_1TorresEduardo.dir
+C:/Users/torrespe/CLionProjects/lab2_1TorresEduardo/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/torrespe/CLionProjects/lab2_1TorresEduardo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
