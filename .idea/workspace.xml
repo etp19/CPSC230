@@ -20,10 +20,11 @@
     <session id="406735208">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="2" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -39,7 +40,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/madLibs/main.cpp">
           <provider selected="true" editor-type-id="text-editor" />
@@ -75,11 +76,6 @@
               <item name="CPSC230" type="b2602c69:ProjectViewProjectNode" />
               <item name="CPSC230" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CPSC230" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CPSC230" type="462c0819:PsiDirectoryNode" />
-              <item name="madLibs" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -114,17 +110,17 @@
       <workItem from="1535715345679" duration="36000" />
       <workItem from="1535755058736" duration="475000" />
       <workItem from="1536527650779" duration="19000" />
+      <workItem from="1536527679134" duration="479000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="530000" />
+    <option name="totallyTimeSpent" value="1009000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="842" y="176" width="1400" height="1000" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25746268" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26119402" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
