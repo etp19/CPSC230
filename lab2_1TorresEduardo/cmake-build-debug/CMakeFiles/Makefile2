@@ -60,10 +60,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Admin\CLionProjects\CPSC230\lab2_1TorresEduardo
+CMAKE_SOURCE_DIR = C:\Users\torrespe\CLionProjects\lab2_1TorresEduardo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Admin\CLionProjects\CPSC230\lab2_1TorresEduardo\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\torrespe\CLionProjects\lab2_1TorresEduardo\cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/lab2_1TorresEduardo.dir
@@ -72,7 +72,7 @@ CMAKE_BINARY_DIR = C:\Users\Admin\CLionProjects\CPSC230\lab2_1TorresEduardo\cmak
 CMakeFiles\lab2_1TorresEduardo.dir\all:
 	$(MAKE) -f CMakeFiles\lab2_1TorresEduardo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\lab2_1TorresEduardo.dir\depend
 	$(MAKE) -f CMakeFiles\lab2_1TorresEduardo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\lab2_1TorresEduardo.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Admin\CLionProjects\CPSC230\lab2_1TorresEduardo\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target lab2_1TorresEduardo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\torrespe\CLionProjects\lab2_1TorresEduardo\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target lab2_1TorresEduardo"
 .PHONY : CMakeFiles\lab2_1TorresEduardo.dir\all
 
 # Include target in all.
@@ -82,9 +82,9 @@ all: CMakeFiles\lab2_1TorresEduardo.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\lab2_1TorresEduardo.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\CLionProjects\CPSC230\lab2_1TorresEduardo\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\torrespe\CLionProjects\lab2_1TorresEduardo\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\lab2_1TorresEduardo.dir\all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\CLionProjects\CPSC230\lab2_1TorresEduardo\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\torrespe\CLionProjects\lab2_1TorresEduardo\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\lab2_1TorresEduardo.dir\rule
 
 # Convenience name for target.

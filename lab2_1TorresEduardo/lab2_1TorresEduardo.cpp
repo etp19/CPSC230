@@ -29,6 +29,7 @@ int main() {
 	// Variables
 	double velocity, acceleration, time;
 	int newAcceleration;
+	int addNumbers = 0;
 
 	// Input
 	cout << "Please enter the velocity in miles per hour:  ";

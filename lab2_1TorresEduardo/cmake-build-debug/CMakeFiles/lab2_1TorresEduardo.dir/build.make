@@ -44,10 +44,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Admin\CLionProjects\CPSC230\lab2_1TorresEduardo
+CMAKE_SOURCE_DIR = C:\Users\torrespe\CLionProjects\lab2_1TorresEduardo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Admin\CLionProjects\CPSC230\lab2_1TorresEduardo\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\torrespe\CLionProjects\lab2_1TorresEduardo\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles\lab2_1TorresEduardo.dir\depend.make
@@ -60,21 +60,21 @@ include CMakeFiles\lab2_1TorresEduardo.dir\flags.make
 
 CMakeFiles\lab2_1TorresEduardo.dir\lab2_1TorresEduardo.cpp.obj: CMakeFiles\lab2_1TorresEduardo.dir\flags.make
 CMakeFiles\lab2_1TorresEduardo.dir\lab2_1TorresEduardo.cpp.obj: ..\lab2_1TorresEduardo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Admin\CLionProjects\CPSC230\lab2_1TorresEduardo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab2_1TorresEduardo.dir/lab2_1TorresEduardo.cpp.obj"
-	C:\PROGRA~2\MICROS~1\2017\ENTERP~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\lab2_1TorresEduardo.dir\lab2_1TorresEduardo.cpp.obj /FdCMakeFiles\lab2_1TorresEduardo.dir\ /FS -c C:\Users\Admin\CLionProjects\CPSC230\lab2_1TorresEduardo\lab2_1TorresEduardo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\torrespe\CLionProjects\lab2_1TorresEduardo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab2_1TorresEduardo.dir/lab2_1TorresEduardo.cpp.obj"
+	C:\PROGRA~2\MICROS~2.0\VC\bin\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\lab2_1TorresEduardo.dir\lab2_1TorresEduardo.cpp.obj /FdCMakeFiles\lab2_1TorresEduardo.dir\ /FS -c C:\Users\torrespe\CLionProjects\lab2_1TorresEduardo\lab2_1TorresEduardo.cpp
 <<
 
 CMakeFiles\lab2_1TorresEduardo.dir\lab2_1TorresEduardo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2_1TorresEduardo.dir/lab2_1TorresEduardo.cpp.i"
-	C:\PROGRA~2\MICROS~1\2017\ENTERP~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x86\cl.exe > CMakeFiles\lab2_1TorresEduardo.dir\lab2_1TorresEduardo.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\CLionProjects\CPSC230\lab2_1TorresEduardo\lab2_1TorresEduardo.cpp
+	C:\PROGRA~2\MICROS~2.0\VC\bin\cl.exe > CMakeFiles\lab2_1TorresEduardo.dir\lab2_1TorresEduardo.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\torrespe\CLionProjects\lab2_1TorresEduardo\lab2_1TorresEduardo.cpp
 <<
 
 CMakeFiles\lab2_1TorresEduardo.dir\lab2_1TorresEduardo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2_1TorresEduardo.dir/lab2_1TorresEduardo.cpp.s"
-	C:\PROGRA~2\MICROS~1\2017\ENTERP~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\lab2_1TorresEduardo.dir\lab2_1TorresEduardo.cpp.s /c C:\Users\Admin\CLionProjects\CPSC230\lab2_1TorresEduardo\lab2_1TorresEduardo.cpp
+	C:\PROGRA~2\MICROS~2.0\VC\bin\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\lab2_1TorresEduardo.dir\lab2_1TorresEduardo.cpp.s /c C:\Users\torrespe\CLionProjects\lab2_1TorresEduardo\lab2_1TorresEduardo.cpp
 <<
 
 # Object files for target lab2_1TorresEduardo
@@ -87,9 +87,9 @@ lab2_1TorresEduardo_EXTERNAL_OBJECTS =
 lab2_1TorresEduardo.exe: CMakeFiles\lab2_1TorresEduardo.dir\lab2_1TorresEduardo.cpp.obj
 lab2_1TorresEduardo.exe: CMakeFiles\lab2_1TorresEduardo.dir\build.make
 lab2_1TorresEduardo.exe: CMakeFiles\lab2_1TorresEduardo.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Admin\CLionProjects\CPSC230\lab2_1TorresEduardo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lab2_1TorresEduardo.exe"
-	"C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\lab2_1TorresEduardo.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\ENTERP~1\VC\Tools\MSVC\1411~1.255\bin\HostX86\x86\link.exe /nologo @CMakeFiles\lab2_1TorresEduardo.dir\objects1.rsp @<<
- /out:lab2_1TorresEduardo.exe /implib:lab2_1TorresEduardo.lib /pdb:C:\Users\Admin\CLionProjects\CPSC230\lab2_1TorresEduardo\cmake-build-debug\lab2_1TorresEduardo.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\torrespe\CLionProjects\lab2_1TorresEduardo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lab2_1TorresEduardo.exe"
+	"C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\lab2_1TorresEduardo.dir --manifests  -- C:\PROGRA~2\MICROS~2.0\VC\bin\link.exe /nologo @CMakeFiles\lab2_1TorresEduardo.dir\objects1.rsp @<<
+ /out:lab2_1TorresEduardo.exe /implib:lab2_1TorresEduardo.lib /pdb:C:\Users\torrespe\CLionProjects\lab2_1TorresEduardo\cmake-build-debug\lab2_1TorresEduardo.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.
@@ -102,6 +102,6 @@ CMakeFiles\lab2_1TorresEduardo.dir\clean:
 .PHONY : CMakeFiles\lab2_1TorresEduardo.dir\clean
 
 CMakeFiles\lab2_1TorresEduardo.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\Admin\CLionProjects\CPSC230\lab2_1TorresEduardo C:\Users\Admin\CLionProjects\CPSC230\lab2_1TorresEduardo C:\Users\Admin\CLionProjects\CPSC230\lab2_1TorresEduardo\cmake-build-debug C:\Users\Admin\CLionProjects\CPSC230\lab2_1TorresEduardo\cmake-build-debug C:\Users\Admin\CLionProjects\CPSC230\lab2_1TorresEduardo\cmake-build-debug\CMakeFiles\lab2_1TorresEduardo.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\torrespe\CLionProjects\lab2_1TorresEduardo C:\Users\torrespe\CLionProjects\lab2_1TorresEduardo C:\Users\torrespe\CLionProjects\lab2_1TorresEduardo\cmake-build-debug C:\Users\torrespe\CLionProjects\lab2_1TorresEduardo\cmake-build-debug C:\Users\torrespe\CLionProjects\lab2_1TorresEduardo\cmake-build-debug\CMakeFiles\lab2_1TorresEduardo.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles\lab2_1TorresEduardo.dir\depend
 
