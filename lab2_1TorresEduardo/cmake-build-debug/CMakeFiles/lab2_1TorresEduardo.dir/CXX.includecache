@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/torrespe/CLionProjects/lab2_1TorresEduardo/main.cpp
+C:/Users/Admin/CLionProjects/CPSC230/lab2_1TorresEduardo/lab2_1TorresEduardo.cpp
 iostream
 -
 string
+-
+iomanip
 -
 
