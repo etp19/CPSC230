@@ -124,32 +124,32 @@ test\fast:
 	$(MAKE) -f CMakeFiles\test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test.dir\build
 .PHONY : test\fast
 
-main.obj: main.cpp.obj
+Lab1_2TorresEduardo.obj: Lab1_2TorresEduardo.cpp.obj
 
-.PHONY : main.obj
+.PHONY : Lab1_2TorresEduardo.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test.dir\main.cpp.obj
-.PHONY : main.cpp.obj
+Lab1_2TorresEduardo.cpp.obj:
+	$(MAKE) -f CMakeFiles\test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test.dir\Lab1_2TorresEduardo.cpp.obj
+.PHONY : Lab1_2TorresEduardo.cpp.obj
 
-main.i: main.cpp.i
+Lab1_2TorresEduardo.i: Lab1_2TorresEduardo.cpp.i
 
-.PHONY : main.i
+.PHONY : Lab1_2TorresEduardo.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test.dir\main.cpp.i
-.PHONY : main.cpp.i
+Lab1_2TorresEduardo.cpp.i:
+	$(MAKE) -f CMakeFiles\test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test.dir\Lab1_2TorresEduardo.cpp.i
+.PHONY : Lab1_2TorresEduardo.cpp.i
 
-main.s: main.cpp.s
+Lab1_2TorresEduardo.s: Lab1_2TorresEduardo.cpp.s
 
-.PHONY : main.s
+.PHONY : Lab1_2TorresEduardo.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test.dir\main.cpp.s
-.PHONY : main.cpp.s
+Lab1_2TorresEduardo.cpp.s:
+	$(MAKE) -f CMakeFiles\test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test.dir\Lab1_2TorresEduardo.cpp.s
+.PHONY : Lab1_2TorresEduardo.cpp.s
 
 # Help Target
 help:
@@ -160,9 +160,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... test
 	@echo ... edit_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... Lab1_2TorresEduardo.obj
+	@echo ... Lab1_2TorresEduardo.i
+	@echo ... Lab1_2TorresEduardo.s
 .PHONY : help
 
 
