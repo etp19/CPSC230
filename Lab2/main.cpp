@@ -1,10 +1,12 @@
 /*
+ * CPSC 230TR        (MW)Fall 2018           Lab # 2
  * Eduardo Torres
- * Lab 2
  * Rodger Irish
- * */
+ * convert fahrenheit to celsius
+ */
 #include <iostream>
 #include <string>
+#include <iomanip>
 
 using namespace std;
 
@@ -18,21 +20,21 @@ using namespace std;
 int main() {
     // Variables
     string name;
-    double fahrenheit;
-    double celsius;
+    double fahrenheit, celsius;
 
     // Input
     cout << "Please enter your name:  ";
     cin >> name;
-    cout << "enter the temperature in Fahrenheit:  ";
+
+    cout << "Now enter the temperature in Fahrenheit:  ";
     cin >> fahrenheit;
 
     // Calculations
-    celsius = 5.0/9.0 * (fahrenheit - 32.0);
+    celsius = 5.0 / 9.0 * (fahrenheit - 32.0);
 
     // Output
     cout.precision(2);
     cout << "Hi " << name << "\n";
-    cout << "The equivalent to  " << fahrenheit << " degrees fahrenheit is  " << celsius << "  degree Celsius";
+    cout << "The equivalent to  " << fahrenheit << " degrees fahrenheit is  " << celsius << "  degree Celsius.";
     return 0;
 }
