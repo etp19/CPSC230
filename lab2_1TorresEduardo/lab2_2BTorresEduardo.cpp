@@ -13,7 +13,8 @@ using namespace std;
 
 
 int main()
-{
+{	
+	// Algorithm
 	/*
 		declare all variables (including sentinel)
 		input your grade

@@ -9,10 +9,20 @@
 #include <iomanip>
 
 using namespace std;
-// Constant
 
 int main()
 {
+	// Algorithm
+	/*
+	declare all variables (including sentinel)
+	input your grade
+	input your partner's grade
+	convert both grades
+	round both grades
+	use if else statements to assign letters based on the numbers entered for each user.
+	use a if else statement to compare the grades
+	*/
+
 	char yourletter, theirletter;
 	int yourgrade, theirgrade;
 
@@ -97,7 +107,7 @@ int main()
 		cout << "There is no winner\n";
 	}
 
-	//system("pause");
+	system("pause");
 	
 	return  1;
 }
