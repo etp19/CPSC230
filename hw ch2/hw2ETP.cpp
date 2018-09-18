@@ -1,9 +1,10 @@
-/*
+/*******************************************************************************************************************************************
 *                      CPSC 230 TR Fall 2018               HW Ch02
 * Eduardo Torres
 *
 * The program allows the user to guess a number 5 times and after each guess, it will display whether or not the user guessed the number.
 *
+********************************************************************************************************************************************
 */
 #include <iostream>
 #include <string>
