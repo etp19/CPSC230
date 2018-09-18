@@ -25,6 +25,7 @@ int main()
 	int const TIMES_TO_RUN = 5;
 	
 	// Variables
+	int counter = 0;
 	string userName;
 	int guessNumber;
 	int randomNumber;
@@ -34,19 +35,20 @@ int main()
 	cout << "Please enter your name:  ";
 	cin >> userName;
 	cout << "\n";
-	
-	for (int i = 0; i < TIMES_TO_RUN; i++)
+
+    // Get a random number from 1 to 50.
+    randomNumber = (rand() % 50) + 1;
+
+	while(counter < TIMES_TO_RUN)
 	{
 		// Input number
 		cout << "\nPlease guess a number from 1 to 50\n";
 		cin >> guessNumber;
 
-		// Get a random number from 1 to 50.
-		randomNumber = (rand() % 50) + 1;
-
 		// Compare the numbers and output a message to the user
 		if (guessNumber == randomNumber) {
-			cout << "Congratilations" << userName << "  you just guessed the number!\n";			
+			cout << "Congratulations  " << userName << "  you just guessed the number!\n";
+            break;
 		}
 		else if (guessNumber < randomNumber)
 		{
@@ -56,6 +58,7 @@ int main()
 		{
 			cout << "Sorry  " << userName << "  your number was too high\n";
 		}
+		counter += 1;
 
 	}
 			
