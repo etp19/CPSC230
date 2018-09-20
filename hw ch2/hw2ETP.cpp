@@ -14,54 +14,85 @@
 
 using namespace std;
 
+// Constant
+enum WEAPONS {
+	A = 1,
+	B = 2,
+	C = 3,
+	D = 4
+};
 
+enum WEAPONS_DAMAGE {
+	SWORD = 5000,
+	WAND = 6000,
+	BATTLE = 7000,
+	RING = 8000
+};
+int const TIMES_TO_RUN = 5;
 int main()
 {	
 
 	// Seed Random
 	srand(time(NULL));
-
-	// Constant
-	int const TIMES_TO_RUN = 5;
-	
+		
 	// Variables
 	int counter = 0;
 	string userName;
-	int guessNumber;
-	int randomNumber;
+	int weaponType, weaponDamage, monsterPoints, initialUserPoints;
 	
 
 	//Input your name
 	cout << "Please enter your name:  ";
 	cin >> userName;
 	cout << "\n";
+	
+	// random points to user
+	initialUserPoints = (rand() % 50000) + 1;
+	// Display greetings and your points
+	cout << "Greetings Sr " << userName << "\n\n";
+
+
+	cout << "You have " << initialUserPoints << "  Points\n";
+
+	// Choose your weapon
+	cout << "/n Choose a weapon from the following:\n\n";
+	cout << "/n1 = Sword of Greyskull/n";
+	cout << "/n2 = Wand of Gandolf/n";
+	cout << "/n3 = Battle Axe of Grumpy/n";
+	cout << "/n4 = Ring of Gollum/n";
+	cin >> weaponType;
+
+	
+
+	switch (weaponType)
+	{
+	case A:
+		cout << "You choose weapon A";
+		weaponDamage = SWORD;
+		initialUserPoints += weaponDamage;
+	case B:
+		cout << "You choose weapon B";
+		weaponDamage = WAND;
+		initialUserPoints += weaponDamage;
+	case C:
+		cout << "You choose weapon B";
+		weaponDamage = BATTLE;
+		initialUserPoints += weaponDamage;
+	case D:
+		cout << "You choose weapon B";
+		weaponDamage = RING;
+		initialUserPoints += weaponDamage;
+	}
 
     // Get a random number from 1 to 50.
-    randomNumber = (rand() % 50) + 1;
+	monsterPoints = (rand() % 10000) + 1;
 
-	while(counter < TIMES_TO_RUN)
+	for (int i = 0; i < TIMES_TO_RUN; i++)
 	{
-		// Input number
-		cout << "\nPlease guess a number from 1 to 50\n";
-		cin >> guessNumber;
-
-		// Compare the numbers and output a message to the user
-		if (guessNumber == randomNumber) {
-			cout << "Congratulations  " << userName << "  you just guessed the number!\n";
-            break;
-		}
-		else if (guessNumber < randomNumber)
-		{
-			cout << "Sorry  " << userName << "  your number was too low\n";
-		}
-		else
-		{
-			cout << "Sorry  " << userName << "  your number was too high\n";
-		}
-		counter += 1;
-
+		
 	}
-			
+
+	
 	system("pause");
 
 	return  1;
