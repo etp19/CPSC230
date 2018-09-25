@@ -37,7 +37,7 @@ int main()
 		
 	// Variables
 	int counter = 0;
-	string userName;
+	string userName, playAgain = "yes";
 	int weaponType, weaponDamage, monsterPoints, initialUserPoints;
 	
 
@@ -46,8 +46,11 @@ int main()
 	cin >> userName;
 	cout << "\n";
 	
+	while(playAgain == "yes"){
 	// random points to user
 	initialUserPoints = (rand() % 50000) + 1;
+	// random points to monster
+	monsterPoints = (rand() % 50000) + 1;
 	// Display greetings and your points
 	cout << "Greetings Sr " << userName << "\n\n";
 
@@ -75,24 +78,37 @@ int main()
 		weaponDamage = WAND;
 		initialUserPoints += weaponDamage;
 	case C:
-		cout << "You choose weapon B";
+		cout << "You choose weapon C";
 		weaponDamage = BATTLE;
 		initialUserPoints += weaponDamage;
 	case D:
-		cout << "You choose weapon B";
+		cout << "You choose weapon D";
 		weaponDamage = RING;
 		initialUserPoints += weaponDamage;
 	}
 
-    // Get a random number from 1 to 50.
-	monsterPoints = (rand() % 10000) + 1;
+	
 
 	for (int i = 0; i < TIMES_TO_RUN; i++)
 	{
-		
+		if (initialUserPoints < monsterPoints) {
+			initialUserPoints += (initialUserPoints * 0.15);
+			monsterPoints += (initialUserPoints * 0.20);
+			cout << "With the weapon you chose you have defeated the Monster\n";
+		}
+		else
+		{	
+			initialUserPoints -= (initialUserPoints * 0.15);
+			monsterPoints -= (initialUserPoints * 0.20);
+			cout << "With the weapon you chose you have lost\n";
+		}
 	}
 
+
+	cout << "Do You want to play again?  \n";
+	cin >> playAgain;
 	
+	}
 	system("pause");
 
 	return  1;
