@@ -1,13 +1,13 @@
-//******************************************************************************
+//**************************************************************************************************
 // CPCS 230		Fall 2018		 Lab # 4
 // Eduardo Torres
 //
-// This program will calculate the volume of a triangle, it contain 3 functions, the main function, 
-// the calculate function which takes care of the calculations, and the round_number that will round the number to the nearest tenths. 
+// This program will calculate the volume of a cone, it contain 3 functions, the main function, 
+// the calculate function, and the round_number that will round the number to the nearest tenths. 
 // 
-//******************************************************************************
+//**************************************************************************************************
 
-
+// Imports
 #include <iostream>
 #include <iomanip>
 #include <cstdlib>
@@ -16,6 +16,9 @@
 #include <string>
 
 using namespace std;
+
+// declare constant
+const double PI = 3.14159;
 
 //function declarion
 double calculator(int radius, int height);
@@ -28,31 +31,32 @@ int main()
 	string name;
 	int height, radius;
 	double volume;
-	char yes = 'y';
+	// sentinel
+	char keepCalculating = 'y';
 
 	//input
 	cout << "May I get your full name please?:  ";
 	getline(cin, name);
-	while (yes == 'y') {
+	// Keep calculating if the user want.
+	while (tolower(keepCalculating) == 'y') {
 		cout << "Thanks, " << name << ", now enter the height of the cone:  ";
 		cin >> height;
 		cout << "OK, now enter the radius:  ";
 		cin >> radius;
-		// calculations
+		// call the calculator function with the radius and height as parameters
 		volume = calculator(radius, height);
 
-		//output
+		//output, it is fixed to 2 decimal places.
 		cout << fixed << setprecision(2) << "OK, " << name << " the cone's volume is " << volume << " .\n";
 		cout << "Do you want to calculate another volume y/n ";
-		cin >> yes;
+		cin >> keepCalculating;
 	}
 	return 0;
 }
 
-// This function will calculate the volume of the triangle
+// This function will calculate the volume of the cone
 double calculator(int radius, int height) {
-	const double PI = 3.14159;
-	// In the return I will call another function that will take care of the rounding
+	// In the return I will call another function that will handle the rounding before returning the number.
 	return  round_number(((1.0 / 3.0) * PI * radius * radius * height));
 }
 
