@@ -7,14 +7,16 @@
 
 using namespace std;
 
-int calculate_surface_cube(int side);
-int calculate_surface_sphere(int radius);
-int display_output(double cube, double sphere);
+double calculate_surface_cube(double side);
+double calculate_surface_sphere(double radius);
+double round_number(double number_to_round);
+double square(double number);
 double const PI = 3.141592;
+
 int main()
 {
 	
-	int side, radius, s_cube, s_sphere;
+	double side, radius, s_cube, s_sphere;
 
 	cout << "Enter the side of the cube" << endl;
 	cin >> side;
@@ -22,23 +24,30 @@ int main()
 	cin >> radius;
 	s_cube = calculate_surface_cube(side);
 	s_sphere = calculate_surface_sphere(radius);
-
-	display_output(s_cube, s_sphere);
+	cout << fixed << setprecision(2) << "The surface of a cube of sides " << round_number(side) << " is " << s_cube << endl;
+	cout << fixed << setprecision(2) << "The surface of a sphere of radius " << round_number(radius) << " is " << s_sphere << endl;
 }
 
-int calculate_surface_cube(int side)
+double calculate_surface_cube(double side)
 {
-	return 6 * side * side;
+	return round_number(6.0 * square(side));
 }
 
-int calculate_surface_sphere(int radius)
+double calculate_surface_sphere(double radius)
 {
-	return 4 * PI * radius * radius;
+	return round_number(4.0 * PI * square(radius));
 }
 
-int display_output(double cube, double sphere)
+double round_number(double number_to_round) {
+	int new_number;
+	number_to_round *= 100;
+	number_to_round += 0.5;
+	new_number = static_cast<int>(number_to_round);
+	number_to_round = static_cast<double>(new_number) / 100;
+	return number_to_round;
+};
+
+double square(double number)
 {
-	cout << "The surface of a cube of sides " << cube << endl;
-	cout << "The surface of a sphere of sides " << sphere << endl;
-	return 0;
+	return number * number;
 }
