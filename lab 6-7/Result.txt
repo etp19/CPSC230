@@ -1,0 +1,11 @@
+Name                  Grade               Average
+SMITH                    93         Above Average
+JOHNSON                  52        Bellow Average
+WILLIAMS                 59        Bellow Average
+JONES                    71        Bellow Average
+BROWN                    98         Above Average
+DAVIS                    87         Above Average
+MILLER                   86         Above Average
+WILSON                   56        Bellow Average
+MOORE                    76        Bellow Average
+TAYLOR                   85         Above Average
